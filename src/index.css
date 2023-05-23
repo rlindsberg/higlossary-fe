@@ -1,0 +1,91 @@
+@font-face {
+  font-family: MDPrimer;
+  src: url("./assets/fonts/MDPrimer-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: MDPrimer;
+  src: url("./assets/fonts/MDPrimer-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: MDPrimer;
+  src: url("./assets/fonts/MDPrimer-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: MDPrimer;
+  src: url("./assets/fonts/MDPrimer-Semibold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: MDPrimer;
+  src: url("./assets/fonts/MDPrimer-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: MDPrimer;
+  src: url("./assets/fonts/MDPrimer-Black.otf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+html {
+  font-family: "MDPrimer", "sans-serif";
+  height: 100%;
+  background: linear-gradient(
+      2.6deg,
+      rgba(255, 255, 255, 0.45) -7.19%,
+      rgba(245, 224, 255, 0.45) 53.34%,
+      rgba(211, 229, 255, 0.45) 107.74%
+    ),
+    #ffffff;
+  background-repeat: no-repeat;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background: linear-gradient(
+      2.6deg,
+      rgba(255, 255, 255, 0.45) -7.19%,
+      rgba(245, 224, 255, 0.45) 53.34%,
+      rgba(211, 229, 255, 0.45) 107.74%
+    ),
+    #ffffff;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 150%;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 38px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 150%;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
